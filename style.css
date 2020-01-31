@@ -1,0 +1,105 @@
+body{
+  background-color: #a9d7d1;
+}
+
+#title {
+font-family: 'Raleway', Helvetica, sans-serif;
+text-align: center;
+}
+#survey-form{
+  background-color: rgb(250, 250, 250);
+  border-radius:5px;
+  /*
+  padding-top: 25px;
+  padding-bottom: 0px; */
+ margin-left:15%;
+ margin-right: 15%;
+}
+ p {
+   text-align: center;
+   padding-top: 35px;
+}
+
+#name-label {
+  margin-left:40%;
+}
+#email-label {
+  margin-left:40%; 
+}
+#number-label {
+  margin-left:40%;
+}
+#dropdown-label {
+margin-left: 20%;
+}
+
+#container{
+  /* border:1px solid red; */
+  margin:3px 0px;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+}
+
+#container button{
+  padding:10px 30px;
+  background-color:#59ace0;
+  border-radius:4px;
+  border:0px solid;
+  margin-bottom:50px;
+}
+
+#container div{
+  flex:1;
+}
+
+
+#forlabel{
+  text-align:right;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+#forlabel span{
+  font-size:10px;
+  position:relative;
+  top:-5px;
+  margin-right: 2px;
+}
+
+#forinput input{
+  padding:5px;
+  width:250px;
+}
+
+#diff{
+  width:0px !important;
+}
+
+#forlabel, #forinput{
+  padding:10px;
+}
+#forinput select {
+padding: 5px;
+}
+
+#selector input {
+  margin: 7px 0px;
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+#forinput > label{
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-start; */
+    vertical-align: top;
+    position: relative;
+    top: -124px;
+}
+.submit:hover{
+  color: azure;
+  
+}
+
+
+

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <h1 id="title"> Survey Form</h1>
+
+    <form id="survey-form">
+      <p id="description">Let us know how we can improve freeCodeCamp</p>
+      <div id="container">
+        <div id="forlabel">
+            <label id='name-label'><span>*</span>Name:</label>
+        </div>
+        
+        <div id="forinput">
+          <input id="name" required placeholder="Enter your name">
+        </div>
+      </div>
+
+      
+      <div id="container">
+          <div id="forlabel">
+              <label id='email-label'><span>*</span>Email:</label>
+          </div>
+          
+          <div id="forinput">
+              <input id="email" type="email" required placeholder="Enter your Email">
+          </div>
+      </div>
+
+      <div id="container">
+       <div id="forlabel"> <label id='number-label'><span>*</span> Age:</label>
+       </div>
+        <div id="forinput"><input id="number" type="number" min="1" max="20" placeholder="Age">
+        </div>  
+      </div>
+
+      <div id="container">
+        <div id="forlabel"><label id="dropdown-label">Which option best describes your current role?</label>
+         </div>
+        <div id="forinput">
+            <select id="dropdown">
+                <option disabled>Select an option</option>
+                <option>Student</option>
+                <option>Full Time Job</option>
+                <option>Full Time Learner</option>
+                <option>Prefer not to say</option>
+                <option>Other</option>
+              </select>
+
+        </div>
+      </div>
+        
+        
+        
+
+      <div id="container">
+        <div id="forlabel"> <label><span>*</span> How likely is that you would recommend freeCodeCamp to a friend?</label>
+        </div>
+        <div id="selector">
+          <label><input type="radio" name="resource" value="1"> Definitely</label><br>
+          <label><input type="radio" value="2" name="resource"> Maybe</label><br>
+          <label><input type="radio" value="3" name="resource"> Not Sure</label>
+        </div>    
+      </div>
+
+      <div id="container">
+        <div id="forlabel"><label id="dropdown-label">What do you like most in FCC:</label>
+        </div>
+        <div id="forinput">
+          <select id="dropdown">
+            <option disabled>Choose an option</option>
+            <option>Challenges</option>
+            <option>Projects</option>
+            <option>Community</option>
+            <option>Open Source</option>
+          </select>
+        </div>
+     </div>
+
+      <div id="container">
+        <div id="forinput"><label>Things that should be improved in the future
+            (Check all that apply):</label></div>
+        
+        <div id="selector">
+          <label><input type="checkbox" value="1"> Front-end Projects</label><br>
+          <label><input type="checkbox" value="2"> Backed-end Projects </label><br>
+          <label><input type="checkbox" value="3"> Data Visualization</label><br>
+          <label><input type="checkbox" value="4"> Challenges</label><br>
+          <label><input type="checkbox" value="4"> Open Source Community</label><br>
+          <label><input type="checkbox" value="5"> Gitter help rooms</label><br>
+          <label><input type="checkbox" value="6"> Videos</label><br>
+          <label><input type="checkbox" value="7"> City Meetups</label><br>
+          <label><input type="checkbox" value="8"> Wiki</label><br>
+          <label><input type="checkbox" value="9"> Forum</label><br>
+          <label><input type="checkbox" value="10"> Additional Courses</label>
+        </div>
+      </div>
+
+    <div id="container">
+        <div id="forlabel"><label>Any Comments or Suggestions</label></div>
+        <div id="forinput">
+            <textarea id="msg" name="user_message" rows="4" cols="50" placeholder="Enter Text Here..."></textarea>
+        </div>
+    </div>
+
+    <div id="container">
+      <button class="submit">Submit</button>
+    </div>
+      
+    </form>
+
+</body>
+</html>
